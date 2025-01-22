@@ -26,8 +26,8 @@ This Python script constructs input call data for transferring ERC-20 tokens usi
 ## Usage
 
 1. Open the script file and ensure the recipient address and transfer amount are correct:
-    - **Recipient Address**: `0x85b931A32a0725Be14285B66f1a22178c672d69B` (Binance 10 account).
-    - **Transfer Amount**: `100 USDC` (represented as `100 * 10^6` in smallest units).
+    - **Recipient Address**: `0x85b931A32a0725Be14285B66f1a22178c672d69B` (PLACEHOLDER, Binance 10 account).
+    - **Transfer Amount**: `100 USDC` (PLACEHOLDER, represented as `100 * 10^6` in smallest units).
 
 2. Run the script:
     ```bash
