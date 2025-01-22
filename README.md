@@ -1,6 +1,6 @@
 # ERC-20 Input Call Data Generator
 
-This Python script constructs input call data for transferring ERC-20 tokens using the `transfer(address,uint256)` function. It is specifically designed to generate data for transferring 100 USDC tokens to a specified recipient address (can be changed ofc).
+This Python script constructs input call data for transferring ERC-20 tokens using the `transfer(address,uint256)` function.
 
 ## Features
 
