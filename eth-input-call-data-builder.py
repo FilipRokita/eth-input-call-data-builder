@@ -1,9 +1,14 @@
+# Description: A Python script to construct input call data for the ERC-20 transfer function.
+# Author: Filip Rokita
+
+
+# Import the required libraries
 from web3 import Web3
 
 
 def main():
     """
-    Main function to construct input call data for transferring 100 USDC tokens.
+    Main function to construct input call data for transferring tokens.
     """
 
     # Address of the recipient
@@ -18,7 +23,7 @@ def main():
 
     # Option 2: Ask the user to input the amount to transfer
     # Commented out, due to the task requirements.
-    # transfer_amount = int(input("Enter the amount of USDC to transfer: ").strip
+    # transfer_amount = int(input("Enter the amount of USDC to transfer: ").strip)
 
     # Generate the input call data
     input_data = construct_input_data(recipient_address, transfer_amount)
@@ -53,5 +58,6 @@ def construct_input_data(to_address, amount):
     return f"0x{method_id}{padded_to_address}{padded_amount}"
 
 
+# Run the main function
 if __name__ == "__main__":
     main()
